@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  height: 500px;
+}
+
+/* Banner  */
+
+.banner h1 {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+
+.banner h3 {
+  text-align: center;
+  color: white;
+}
+
+/* Container */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+.article h3 {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding: 10px auto;
+  line-height: 1.6;
+}
+
+.article p {
+  color: black;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+.lien a {
+  text-decoration: none;
+}
+
+.lien h3 {
+  color: black;
+  font-style: italic;
+  width: 215px;
+  background-color: rgba(233, 253, 240, 1);
+}
+
+.lien h3:hover {
+  background-color: #A7DB96;
+}
